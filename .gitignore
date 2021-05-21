@@ -1,8 +1,9 @@
 *.swp
 *.tmp
 *.log
-
+domain.js
 
 coverage/
 node_modules/
 /domain.txt
+/domain.js
