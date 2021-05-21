@@ -12,7 +12,8 @@ var originWhitelist = parseEnvList(process.env.CORSANYWHERE_WHITELIST);
 
 var fs = require('fs');
 
-var domain = fs.readFileSync('domain.txt', 'utf8').split('\n');
+var domain = fs.readFileSync('domain.txt', 'utf8').split('\r\n');
+console.log(domain)
 
 
 
